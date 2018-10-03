@@ -21,13 +21,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Gandalfcoin"
-            VALUE "FileDescription",    "Gandalfcoin-Qt (OSS GUI client for Gandalfcoin)"
+            VALUE "FileDescription",    "Gandalfcoin wallet (OSS GUI client for Gandalfcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "gandalfcoins-qt"
+            VALUE "InternalName",       "gandalfcoins Wallet"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "gandalfcoins-qt.exe"
-            VALUE "ProductName",        "Gandalfcoin-Qt"
+            VALUE "ProductName",        "Gandalfcoin Wallet"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

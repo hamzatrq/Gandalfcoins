@@ -490,7 +490,7 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("GandalfCoins-Qt") + " " + tr("version") + " " +
+    header = tr("GandalfCoins Wallet") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
         "  bitcoin-qt [" + tr("command-line options") + "]                     " + "\n";
@@ -503,7 +503,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n" +
         "  -choosedatadir         " + tr("Choose data directory on startup (default: 0)") + "\n";
 
-    setWindowTitle(tr("GandalfCoins-Qt"));
+    setWindowTitle(tr("GandalfCoins Wallet"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));

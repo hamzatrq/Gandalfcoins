@@ -175,11 +175,11 @@ int main(int argc, char *argv[])
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
     QApplication::setOrganizationName("GandalfCoins");
-    QApplication::setOrganizationDomain("gandalfcoins.org");
+    QApplication::setOrganizationDomain("gandalfcoins.com");
     if (GetBoolArg("-testnet", false)) // Separate UI settings for testnet
-        QApplication::setApplicationName("GandalfCoins-Qt-testnet");
+        QApplication::setApplicationName("GandalfCoins");
     else
-        QApplication::setApplicationName("GandalfCoins-Qt");
+        QApplication::setApplicationName("GandalfCoins");
 
     // Now that QSettings are accessible, initialize translations
     QTranslator qtTranslatorBase, qtTranslator, translatorBase, translator;
